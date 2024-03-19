@@ -1,9 +1,3 @@
-{% comment %} this is a barebones menu with submenu items for Shopify {% endcomment %}
-{% comment %} see shopify docu for creating submenu items: https://help.shopify.com/manual/sell-online/online-store/menus-and-links#create-a-drop-down-menu {% endcomment %}
-
-
-{% comment %} first assign the menu - this is the only thing you need to change {% endcomment %}
-
 {% assign linklist = settings.collections_nav %}
 
 {% comment %} in the above line change the collections_nav to the handle of your main naivgation  {% endcomment %}
